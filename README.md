@@ -30,10 +30,10 @@ MYSQL_DATABASE=your_mysql_database_name
 ```
 
 ## Step 5: Run the Application
-Run the following command to execute the script:
+Now in the cd, Run the following command to execute the script:
 
 ```bash
-python all_in_one.py
+streamlit run streamlit_app.py 
 ```
 
 **Note:** Ensure the `.env` file is included in your `.gitignore` to avoid exposing sensitive information.
